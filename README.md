@@ -1,13 +1,40 @@
-View project [https://blessssing.github.io/build-landx](https://blessssing.github.io/build-landx)
+# Landx
 
-## Project description
+Landing page
 
-I wanted to display adaptive layout.
+## Demo
 
-In this project, I did not handle the form
+Here is a working live demo : [https://blessssing.github.io/build-landx](https://blessssing.github.io/build-landx)
 
-### Used technologies
+## 🛠 Skills
 
-- SCSS
 - HTML5
+- SCSS
 - Gulp4
+- Swiper (slider)
+
+## Run Locally
+
+We need to install node.js version 14.16.1
+We can also use nvm-windows (Node Version Manager) to switch between node versions
+https://www.freecodecamp.org/news/node-version-manager-nvm-install-guide/
+
+```bash
+# Set node version
+$ nvm use v14.16.1
+
+# Clone this repository
+$ git clone https://github.com/blessssing/landx.git
+
+# Go to the project directory
+$ cd landx
+
+# Install dependencies
+$ npm install
+
+# Runs the app in the development mode
+$ gulp
+
+# Builds the app for production
+$ gulp build
+```
